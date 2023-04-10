@@ -35,13 +35,13 @@ body {
   color: #434455;
   margin: 0;
 }
-.container {
+/* .container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -58,7 +58,7 @@ body {
 }
 
 /* =========================HEADER================================ */
-.flex {
+/* .flex {
   display: flex;
   position: relative;
   column-gap: 40px;
@@ -128,11 +128,11 @@ body {
 .contacts-text-characterictics:hover,
 .contacts-text-characterictics:focus {
   color: #404bbf;
-}
+} */
 
 /* =========================/HEADER================================ */
 /* =========================HERO=================================== */
-.hero {
+/* .hero {
   background: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
@@ -179,10 +179,10 @@ body {
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
-}
+} */
 /* =========================/HERO=================================== */
 /* =========================OUR ADVANTAGES========================== */
-.list-of-advantages {
+/* .list-of-advantages {
   display: flex;
   column-gap: 24px;
 }
@@ -214,10 +214,10 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-}
+} */
 /* =========================/OUR ADVANTAGES========================== */
 /* =========================WHAT ARE WE DOING======================== */
-.section-promo {
+/* .section-promo {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -241,10 +241,10 @@ body {
   flex-basis: calc(100% / 3 - 20px);
   margin-left: 20px;
   margin-top: 20px;
-}
+} */
 /* =========================/WHAT ARE WE DOING======================== */
 /* =========================OUR TEAM================================== */
-.background {
+/* .background {
   background: #f4f4fd;
 }
 
@@ -312,11 +312,11 @@ body {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #404bbf;
-}
+} */
 
 /* =========================/OUR TEAM================================== */
 /* =========================CUSTOMERS================================== */
-.our-customers-title {
+/* .our-customers-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -351,10 +351,10 @@ body {
   fill: #404bbf;
   border: 1px solid #404bbf;
   border-radius: 4px;
-}
+} */
 /* =========================/CUSTOMERS================================== */
 /* =========================FOOTER===================================== */
-.footer {
+/* .footer {
   background: #2e2f42;
 }
 .logo-second-part-footer {
@@ -462,16 +462,16 @@ body {
   line-height: 2;
   letter-spacing: 0.04em;
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 /* =========================/FOOTER===================================== */
 /* =========================PORTFOLIO=================================== */
 /* =========================HEADER====================================== */
-.underline {
+/* .underline {
   border-bottom: 1px solid #e7e9fc;
-}
+} */
 /* =========================/HEADER====================================== */
 /* =========================MAIN========================================= */
-.button-list {
+/* .button-list {
   display: flex;
   justify-content: center;
   column-gap: 24px;
@@ -571,9 +571,9 @@ body {
 .cards-link:hover .cards-layover,
 .cards-link:focus .cards-layover {
   transform: translate(0, 0);
-}
+} */
 /* =============================MODAL WINDOW====================== */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -629,11 +629,11 @@ body {
 .close-button:hover .modal-close-btn-icon,
 .close-button:focus .modal-close-btn-icon {
   fill: #ffffff;
-}
+} */
 
 /* =============================/MODAL WINDOW====================== */
 /* ==============================MODAL FORM====================== */
-.ask-for-info {
+/* .ask-for-info {
   margin-top: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -776,5 +776,5 @@ body {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-}
+} */
 /* =============================/MODAL FORM====================== */
