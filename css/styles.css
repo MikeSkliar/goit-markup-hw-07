@@ -26,9 +26,6 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-img {
-  display: block;
-}
 button {
   cursor: pointer;
 }
@@ -264,10 +261,7 @@ body {
     background: #404bbf;
     border-radius: 2px;
   }
-  .text-characteristics:focus,
-  .contacts-text-characterictics:focus {
-    color: #404bbf;
-  }
+
   .contacts {
     font-style: normal;
     margin-left: auto;
@@ -282,11 +276,15 @@ body {
   }
   .contacts-text-characterictics {
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: #434455;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .text-characteristics:focus,
+  .contacts-text-characterictics:focus {
+    color: #404bbf;
   }
 
   .text-characteristics:focus,
@@ -300,6 +298,7 @@ body {
 
 @media screen and (min-width: 1158px) {
   .contacts-list {
+    margin-left: auto;
     display: flex;
     column-gap: 40px;
   }
@@ -330,7 +329,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/people-office.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -379,7 +378,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/people-office.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -427,7 +426,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url("../images/people-office.jpg");
+      url("../images/people-office.jpeg");
     background-repeat: no-repeat;
     background-size: auto auto;
     background-position: 50% 50%;
@@ -505,10 +504,22 @@ body {
     gap: 24px;
     margin-bottom: 64px;
   }
+  .advantages-size-fixing {
+    margin-bottom: 0px;
+  }
+  .section-tablet {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .list-of-advantages {
     flex-wrap: nowrap;
+  }
+  .desc-wraper {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 0;
   }
   .advantage-icons-list {
     display: inline;
@@ -535,7 +546,7 @@ body {
 }
 /* =========================/OUR ADVANTAGES========================== */
 /* =========================WHAT ARE WE DOING======================== */
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1157px) {
   .our-work-section {
     display: none;
   }
@@ -552,7 +563,7 @@ body {
     margin-bottom: 72px;
   }
   .section-correction {
-    padding-top: 0;
+    padding-top: 0px;
   }
   .pictures-list {
     display: flex;
@@ -599,9 +610,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .employees-photo {
-    margin-bottom: 32px;
-  }
+
   .employee-name {
     display: flex;
     justify-content: center;
@@ -630,6 +639,13 @@ body {
     gap: 24px;
     margin-bottom: 32px;
   }
+  .employee-information {
+    background: #ffffff;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+      0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    padding: 32px 16px 32px 16px;
+  }
   .social-list-link {
     display: flex;
     justify-content: center;
@@ -650,12 +666,9 @@ body {
   }
 }
 @media screen and (min-width: 768px) {
-  .section {
-    padding-top: 96px;
-    padding-bottom: 40px;
-  }
   .background {
     background: #f4f4fd;
+    padding-bottom: 96px;
   }
   .section-promo {
     font-weight: 700;
@@ -674,8 +687,8 @@ body {
   }
   .cards-of-emloyees {
     flex-basis: calc(100% / 4 - 24px);
-    margin-left: 24px;
-    margin-top: 24px;
+    margin-left: 0;
+    margin-top: 0;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -734,6 +747,9 @@ body {
     display: flex;
     gap: 24px;
     margin-bottom: 64px;
+  }
+  .emp-wraper-two {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -805,10 +821,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-  }
   .our-customers-title {
     font-weight: 700;
     font-size: 36px;
@@ -852,9 +864,8 @@ body {
 }
 
 @media screen and (min-width: 1158px) {
-  .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  .customer-list {
+    margin-bottom: 0;
   }
   .customer-logo-list-splitter {
     display: flex;
@@ -1112,8 +1123,8 @@ body {
 }
 @media screen and (min-width: 1158px) {
   .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .right-side-footer {
     margin-left: 120px;
@@ -1452,4 +1463,4 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
-/* =============================/MODAL FORM====================== */ ;
+/* =============================/MODAL FORM====================== */
