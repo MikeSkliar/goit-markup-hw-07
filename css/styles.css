@@ -328,6 +328,10 @@ body {
   .contacts-text-characterictics:hover {
     color: #404bbf;
   }
+  .contacts-text-characterictics {
+    font-size: 16px;
+    line-height: calc(24 / 16);
+  }
 }
 
 /* =========================/HEADER================================ */
@@ -566,6 +570,10 @@ body {
     display: block;
     font-weight: 400;
   }
+  .section-tablet {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 /* =========================/OUR ADVANTAGES========================== */
 /* =========================WHAT ARE WE DOING======================== */
@@ -587,6 +595,7 @@ body {
   }
   .section-correction {
     padding-top: 0px;
+    padding-bottom: 120px;
   }
   .pictures-list {
     display: flex;
@@ -609,7 +618,7 @@ body {
   }
   .section {
     padding-top: 96px;
-    padding-bottom: 48px;
+    padding-bottom: 96px;
   }
   .section-promo {
     font-weight: 700;
@@ -798,12 +807,17 @@ body {
   .cards-of-emloyees {
     margin-right: 24px;
   }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 /* =========================/OUR TEAM================================== */
 /* =========================CUSTOMERS================================== */
 @media screen and (max-width: 382px) {
-  .section {
+  .section-s {
+    padding-top: 96px;
     padding-bottom: 96px;
   }
   .our-customers-title {
@@ -849,8 +863,9 @@ body {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 383px) {
-  .section {
+@media screen and (min-width: 382px) {
+  .section-s {
+    padding-top: 96px;
     padding-bottom: 96px;
   }
   .our-customers-title {
@@ -863,9 +878,9 @@ body {
     margin-bottom: 72px;
   }
   .customer-list-logo {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: block;
+    /* flex-wrap: wrap;
+    justify-content: center; */
   }
   .customer-logo-link {
     display: flex;
@@ -908,7 +923,7 @@ body {
   }
   .customer-list-logo {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
     gap: 24px;
     justify-content: center;
   }
@@ -937,6 +952,13 @@ body {
   .customer-list-adjuster {
     margin-bottom: 0;
   }
+  .section-s {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .smth {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -953,6 +975,10 @@ body {
     fill: #404bbf;
     border: 1px solid #404bbf;
     border-radius: 4px;
+  }
+  .section-s {
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 }
 /* =========================/CUSTOMERS================================== */
