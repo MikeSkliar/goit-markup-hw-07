@@ -924,7 +924,6 @@ body {
   .customer-list-logo {
     display: flex;
     flex-wrap: no-wrap;
-    gap: 24px;
     justify-content: center;
   }
 
@@ -956,7 +955,10 @@ body {
     padding-top: 96px;
     padding-bottom: 96px;
   }
-  .smth {
+
+  .customer-logo-list-splitter {
+    display: block;
+    margin-right: 24px;
     margin-bottom: 0;
   }
 }
@@ -967,9 +969,10 @@ body {
   }
   .customer-logo-list-splitter {
     display: flex;
-    gap: 24px;
+    flex-wrap: no-wrap;
     margin-bottom: 0;
   }
+
   .customer-logo-link:hover,
   .customer-logo-link:focus {
     fill: #404bbf;
