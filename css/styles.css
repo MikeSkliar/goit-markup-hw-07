@@ -570,9 +570,10 @@ body {
     display: block;
     font-weight: 400;
   }
-  .section-tablet {
+
+  .section-new {
     padding-top: 120px;
-    padding-bottom: 120px;
+    padding-bottom: 0;
   }
 }
 /* =========================/OUR ADVANTAGES========================== */
@@ -905,6 +906,7 @@ body {
     flex-wrap: wrap;
     gap: 16px;
     margin-bottom: 72px;
+    justify-content: center;
   }
   .adjuster {
     margin-bottom: 0;
